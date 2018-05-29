@@ -5,6 +5,8 @@ const _ = require('lodash');
 
 let localConfig;
 
+// some changes...
+
 try {
   localConfig = require('../local.env');
 } catch (e) {
